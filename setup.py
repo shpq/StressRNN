@@ -21,19 +21,11 @@ setup(name='stressrnn',
       description='Package that helps you to put lexical stress in russian text.',
       long_description=readme(),
       url='https://github.com/Desklop/StressRNN',
-      classifiers=[
-          'Natural Language :: Russian',
-          'Programming Language :: Python :: 3.6',
-          'Programming Language :: Python :: 3.7',
-          'Programming Language :: Python :: 3.8',
-          'Topic :: Text Processing :: Linguistic'
-      ],
       author='Maria Ponomareva (RusStress), Kirill Milintsevich (RusStress), Vladislav Klim (StressRNN)',
       keywords='nlp russian stress accent emphasis linguistic rnn lstm bilstm',
       author_email='ponomarevamawa@gmail.com (RusStress), vladsklim@gmail.com (StressRNN)',
       packages=['stressrnn'],
       install_requires=requirements(),
-      include_package_data=True,
-      zip_safe=False)
+      include_package_data=True)
 
 # python3 setup.py bdist_wheel
