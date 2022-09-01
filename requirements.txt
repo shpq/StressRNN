@@ -1,1 +1,1 @@
-ort-nightly==1.11.0.dev20220320001
+ort-nightly==1.11.0
